@@ -1,0 +1,169 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+}
+.m-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.t-top{
+  height: 60px;
+  padding-top: 4px 7px;
+}
+.top{
+  float: right;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+.top a{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 12px 5px;
+}
+.top a:hover{
+  text-decoration: underline;
+}
+.top-1 {
+  margin-right: 17px;
+  padding-top: 15px;
+}
+.top-2{
+  padding-top: 10px;
+}
+.im{
+  width: 19px;
+  height: 22px;
+}
+.im-1{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.top-2 {
+  padding: 11px 11px;
+}
+.top-3{
+  padding: 0px 3px;
+}
+.t-logo{
+  min-height: 92px;
+  max-height: 290px;
+}
+.logo{
+  text-align: center;
+  padding-bottom: 3px;
+}
+/*Arama alanı CSS kodları*/
+.t-search{
+ height: 120px;
+ padding: 20px;
+}
+.search{
+  text-align: center;
+  border-radius: 24px;
+  width: 584px;
+  border: rgb(214, 212, 212) 1px solid;
+  height: 43px;
+  display: flex;
+}
+.search:hover{
+   box-shadow: 1px 1px 1px 1px lightgray;
+}
+.inpt{
+  width: 480px;
+  border: none;
+  font-size: 16px;
+  background-color: #fff;
+  outline: 0;
+  border-radius: 24px;
+  margin-left: -65px;
+  display: flex;
+}
+.search-img{
+  width: 40px;
+  height: 40px;
+}
+.search-img img {
+ height: 43%;
+padding-top: 13px;
+ text-align: center; }
+
+ .search-img1{
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+  position: relative;
+ left: 470px;
+  top: 5px;
+  align-items: center;
+}
+.voice{
+  width: 25px;
+  height: 25px;
+  padding-left: 5px;
+  margin-top: -6px;
+}
+.keyboard{
+  margin-top: -3px;
+}
+/*Arama butonu CSS kodları*/
+.button{
+  height: 70px;
+  padding-top: 17px;
+  text-align: center;
+  font-size: 13px;
+}
+.btn{
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+}
+.btn:hover{
+  box-shadow: 1px 1px 1px 0px lightgray;
+  border: 1px solid rgb(216, 214, 214);
+}
+/*footer kısmı CSS kodları*/
+.foot{
+  background: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px #dad7d7 solid;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 15px;
+}
+.footer1{
+  position: fixed;
+  right: 0;
+  bottom: 15px;
+}
+.footer a{
+  padding-left: 25px;
+  color: #626262;
+}
+.footer1 a{
+  padding-right: 25px;
+  color: #626262;
+}
